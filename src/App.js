@@ -70,7 +70,6 @@ class App extends React.Component {
                 }}
               />
               <VictoryLine
-              
                   data = {mediaData.PPC.map((number,index) =>{
                     let dataObj={ x:index , y: number,a:"PPC"}
                     return dataObj
